@@ -1,10 +1,75 @@
-# coffee-journal ☕️☕️☕️
+# Nuxt Minimal Starter
 
-A coffee journal to log coffee tastings and ratings for different coffee roasts, sorts and drinks including coffee
+Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
+## Setup
 
-## Technologies used
-React + Vite
+Make sure to install dependencies:
 
-<img width="331" alt="grafik" src="https://user-images.githubusercontent.com/19342760/191601848-d806bc50-2762-4f9c-850f-3deab0ba2654.png">
+```bash
+# npm
+npm install
 
+# pnpm
+pnpm install
+
+# yarn
+yarn install
+
+# bun
+bun install
+```
+
+## Development Server
+
+Start the development server on `http://localhost:3000`:
+
+```bash
+# npm
+npm run dev
+
+# pnpm
+pnpm dev
+
+# yarn
+yarn dev
+
+# bun
+bun run dev
+```
+
+## Production
+
+Build the application for production:
+
+```bash
+# npm
+npm run build
+
+# pnpm
+pnpm build
+
+# yarn
+yarn build
+
+# bun
+bun run build
+```
+
+Locally preview production build:
+
+```bash
+# npm
+npm run preview
+
+# pnpm
+pnpm preview
+
+# yarn
+yarn preview
+
+# bun
+bun run preview
+```
+
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
