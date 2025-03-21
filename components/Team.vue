@@ -10,6 +10,7 @@ import {
 import LinkedInIcon from "@/icons/LinkedInIcon.vue";
 import GithubIcon from "@/icons/GithubIcon.vue";
 import XIcon from "@/icons/XIcon.vue";
+import BlueSky from "@/icons/BlueSkyIcon.vue";
 
 interface TeamProps {
   imageUrl: string;
@@ -26,10 +27,10 @@ interface SocialNetworkProps {
 
 const teamList: TeamProps[] = [
   {
-    imageUrl: "https://i.pravatar.cc/250?img=58",
+    imageUrl: "https://avatars.githubusercontent.com/u/19342760?v=4",
     firstName: "Colin",
     lastName: "Schwarz",
-    positions: ["Vue Frontend Developer", "Creator Of This Website"],
+    positions: ["Vue Frontend Developer", "Creator Of Cofficinado"],
     socialNetworks: [
       {
         name: "Github",
@@ -38,7 +39,8 @@ const teamList: TeamProps[] = [
       {
         name: "X",
         url: "https://twitter.com/colinscz",
-      },      {
+      },
+      {
         name: "Bluesky",
         url: "https://bsky.app/profile/colinscz.bsky.social",
       },
@@ -175,6 +177,9 @@ const socialIcon = (socialName: string) => {
 
     case "X":
       return XIcon;
+
+    case "Bluesky":
+      return BlueSky;
   }
 };
 </script>
@@ -188,7 +193,7 @@ const socialIcon = (socialName: string) => {
       <h2 class="text-lg text-primary text-center mb-2 tracking-wider">Team</h2>
 
       <h2 class="text-3xl md:text-4xl text-center font-bold">
-        The Company Dream Team
+        The Cofficinado Dream Team
       </h2>
     </div>
 
