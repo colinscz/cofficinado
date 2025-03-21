@@ -2,7 +2,7 @@ title: Cofficinado - Landing template
 description: Boost your coding productivity with AI-driven insights that tell you when and how to code most efficiently.
 hero:
   title: Track your coffee experience with [Cofficinado]{.text-(--ui-primary)}
-  description: Boost your coding productivity with AI-driven insights that tell you when and how to code most efficiently.
+  description: Log and remember every good coffee experience so you can relive or recreate it.
   links:
     - label: Getting Started
       icon: i-lucide-arrow-right
@@ -35,7 +35,7 @@ sections:
         description: Automate your workflow optimization from code snippets to focus management. Ship better code faster with a streamlined development process.
         class: border-l border-(--ui-border) pt-4 pl-4
 features:
-  title: Take control of your [productivity]{.text-(--ui-primary)}
+  title: Track your coffee [experiences]{.text-(--ui-primary)}
   description: Make every coding session count with smart analytics and workflow optimization.
   features:
     - title: AI-Powered Focus Tracking
@@ -121,7 +121,7 @@ pricing:
         variant: subtle
         to: '#'
 testimonials:
-  title: Join thousands of productive [developers]{.text-(--ui-primary)}
+  title: Join thousands of passionate [coffee lovers]{.text-(--ui-primary)}
   description: See how developers are transforming their coding workflow and achieving more with our AI-powered platform.
   items:
     - quote: Since using this tool, my productivity has doubled. The AI insights helped me find my perfect coding rhythm and now I ship features twice as fast.
